@@ -333,3 +333,10 @@ body {
     font-size: 14px;
   }
 }
+@media (max-width: 768px) {
+  .main {
+    width: 90vw; /* A percentage-based width to adapt to various screen sizes */
+    max-width: 300px; /* Ensure the width does not exceed 300px */
+    flex-direction: column; /* Already included */
+  }
+}
